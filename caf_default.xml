@@ -7,6 +7,10 @@
   <remote  name="lineage-x"
      fetch="https://github.com/LineageOS"
      revision="lineage-15.1" />
+  
+  <remote  name="xtended"
+           fetch="https://github.com/Project-Xtended"
+		   revision="xtended" />
 
   <!-- HardWare QCOM -->
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="lineage-x" />
