@@ -23,7 +23,7 @@
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" groups="pdk" remote="LineageOS-oreo" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="LineageOS" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="LineageOS" />
-  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="pixys" />
+  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="pixys" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="LineageOS" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="LineageOS" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
@@ -32,8 +32,8 @@
   <project path="frameworks/support" name="android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="LineageOS" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="LineageOS" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="pixys" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="pixys" />
+  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="pixys" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="pixys" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="LineageOS" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk" remote="LineageOS" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="LineageOS" />
@@ -47,8 +47,8 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
   <project path="platform_testing" name="android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="LineageOS-oreo" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="LineageOS-oreo" />
-  <project path="system/bt" name="android_system_bt" groups="pdk" remote="pixys" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="pixys" />
+  <project path="system/bt" name="system_bt" groups="pdk" remote="pixys" />
+  <project path="system/core" name="system_core" groups="pdk" remote="pixys" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="LineageOS" />
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="LineageOS-oreo" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="LineageOS" />
@@ -70,7 +70,7 @@
   <project path="external/json-c" name="android_external_json-c" remote="LineageOS-oreo" />
   <project path="external/powertop" name="android_external_powertop" remote="LineageOS-oreo" />
   <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8084" remote="LineageOS" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="pie-msm8916" remote="pixys" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="pie-msm8916" remote="pixys" />
   <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8952" remote="LineageOS" />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8960" remote="LineageOS" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8974" remote="LineageOS" />
@@ -79,7 +79,7 @@
   <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8998" remote="LineageOS" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom,pdk" revision="lineage-15.1-caf" remote="LineageOS" />
   <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8084" remote="LineageOS" />
-  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="pie-msm8916" remote="pixys" />
+  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="pie-msm8916" remote="pixys" />
   <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8952" remote="LineageOS" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8960" remote="LineageOS" />
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8974" remote="LineageOS" />
@@ -88,7 +88,7 @@
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8998" remote="LineageOS" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="LineageOS" />
   <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8084" remote="LineageOS" />
-  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom,pdk" revision="pie-msm8916" remote="pixys" />
+  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" groups="qcom,pdk" revision="pie-msm8916" remote="pixys" />
   <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8952" remote="LineageOS" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8960" remote="LineageOS" />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8974" remote="LineageOS" />
@@ -104,8 +104,8 @@
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-15.1-caf" remote="LineageOS" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="lineage-15.1-caf" remote="LineageOS" />
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="LineageOS-oreo" />
-  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="pixys" revision="pie" />
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="pixys" revision="pie"/>
+  <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="pixys" revision="pie" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixys" revision="pie"/>
   <project path="vendor/nxp/interfaces/opensource/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="LineageOS-oreo" >
     <linkfile src="prop_pickup.bp" dest="vendor/nxp/interfaces/Android.bp" />
   </project>
@@ -113,8 +113,8 @@
   <project path="vendor/nxp/opensource/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="LineageOS-oreo" />
   <project path="vendor/nxp/opensource/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="LineageOS-oreo" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="LineageOS-oreo" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="pixys" revision="pie" />
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="pixys" revision="pie" >
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixys" revision="pie" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="pixys" revision="pie" >
     <copyfile src="os_pickup.bp" dest="vendor/qcom/opensource/Android.bp" />
   </project>
   <project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" remote="LineageOS-oreo" />
